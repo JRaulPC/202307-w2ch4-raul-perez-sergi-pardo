@@ -1,11 +1,15 @@
 class CodersArray {
-  length = 0;
+  Length = 0;
 
   constructor(...values) {
     for (const value of values) {
-      this[this.length] = value;
-      this.length++;
+      this[this.Length] = value;
+      this.Length++;
     }
+  }
+
+  length() {
+    return this.Length;
   }
 }
 

@@ -1,5 +1,5 @@
 import CodersArray from "./CodersArray/CodersArray.js";
 
-const numbers = new CodersArray("hola", "caracola");
+const names = new CodersArray("hola", "mola");
 
-console.log(numbers);
+console.log(names.length());
