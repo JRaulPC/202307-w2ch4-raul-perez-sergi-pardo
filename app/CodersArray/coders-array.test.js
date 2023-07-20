@@ -1,4 +1,4 @@
-import CodersArray from "./CodersArray.js";
+import CodersArray from "./coders-array.js";
 
 describe("Given a CodersArray class", () => {
   describe("When it receives ''hola', 'mola''", () => {
@@ -6,9 +6,7 @@ describe("Given a CodersArray class", () => {
       const names = ("hola", "mola");
       const valuesAreAnObject = new CodersArray(names);
 
-      const expectedToBeAnObject = typeof valuesAreAnObject;
-
-      expect(valuesAreAnObject).toMatchObject(expectedToBeAnObject);
+      expect(valuesAreAnObject).toBeInstanceOf(CodersArray);
     });
   });
 });
