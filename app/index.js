@@ -1,5 +1,7 @@
 import CodersArray from "./CodersArray/coders-array.js";
 
-const names = new CodersArray("hola", "mola");
+const names = new CodersArray("juan", "palomo");
 
-console.log(names.pushMethod("juan"));
+console.log(names);
+
+console.log(`La longitud del array es de ${names.length()}.`);
